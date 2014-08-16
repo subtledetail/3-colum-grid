@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Responsive 3 Columns</title>
+	
+	<style type="text/css">
+		.wrap{max-width:64em;/* 1024px; */
+			margin:0 auto;
+		}
+	
+		[class*='col-'] {
+			float: left;
+			width:33.333333%;
+			
+			}
+		
+		.grid:after {
+		  content: "";
+		  display: table;
+		  clear: both;
+		}
+		
+		*, *:after, *:before {
+		  -webkit-box-sizing: border-box;
+		  -moz-box-sizing: border-box;
+		  box-sizing: border-box;
+		}
+		
+		[class*='col-'] {
+		  padding: 1em 1em 0;
+		}
+				
+		
+		
+		@media screen and (max-width: 50em) {
+		  .grid {
+		    overflow: hidden;
+		  }
+		  .grid > div {
+		    float: left;
+		    width: 100%;
+		  }
+		}
+		
+	</style>
+</head>
+
+<body>
+
+		<div class="wrap">
+		
+			<div class="grid">
+				<div class="col-1">
+					<p>One----Intelligentsia fingerstache brunch, Pitchfork fixie Blue Bottle letterpress literally Thundercats. Skateboard sustainable twee, Williamsburg brunch YOLO mixtape whatever. Readymade slow-carb Marfa, Kickstarter Schlitz beard typewriter yr mustache whatever leggings literally meggings. Brooklyn chambray squid pug. Bespoke scenester keytar, Brooklyn single-origin coffee Bushwick mixtape twee occupy. Paleo Pitchfork put a bird on it Austin aesthetic. Four loko Truffaut gastropub, Echo Park beard master cleanse Tumblr seitan artisan pork belly ennui biodiesel raw denim ugh.</p>
+				</div>
+				
+				<div class="col-2">
+					<p>Two----Intelligentsia fingerstache brunch, Pitchfork fixie Blue Bottle letterpress literally Thundercats. Skateboard sustainable twee, Williamsburg brunch YOLO mixtape whatever. Readymade slow-carb Marfa, Kickstarter Schlitz beard typewriter yr mustache whatever leggings literally meggings. Brooklyn chambray squid pug. Bespoke scenester keytar, Brooklyn single-origin coffee Bushwick mixtape twee occupy. Paleo Pitchfork put a bird on it Austin aesthetic. Four loko Truffaut gastropub, Echo Park beard master cleanse Tumblr seitan artisan pork belly ennui biodiesel raw denim ugh.</p>
+				</div>
+				
+				<div class="col-3">
+					<p>Three----Intelligentsia fingerstache brunch, Pitchfork fixie Blue Bottle letterpress literally Thundercats. Skateboard sustainable twee, Williamsburg brunch YOLO mixtape whatever. Readymade slow-carb Marfa, Kickstarter Schlitz beard typewriter yr mustache whatever leggings literally meggings. Brooklyn chambray squid pug. Bespoke scenester keytar, Brooklyn single-origin coffee Bushwick mixtape twee occupy. Paleo Pitchfork put a bird on it Austin aesthetic. Four loko Truffaut gastropub, Echo Park beard master cleanse Tumblr seitan artisan pork belly ennui biodiesel raw denim ugh.</p>
+				</div>
+			</div>
+			<!-- end grid -->
+		
+		</div>
+		<!-- end wrap -->
+	
+	
+	
+
+</body>
+
+</html>
